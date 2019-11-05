@@ -1,0 +1,22 @@
+{
+  "name": "akashi-kun",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/amasho/akashi-kun.git",
+  "author": "Shota Amano <amasho@dev-cycle.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.5",
+    "@types/puppeteer": "^1.20.2",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
+    "puppeteer": "^2.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}
